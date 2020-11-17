@@ -66,10 +66,10 @@ module jtag_dpi
 
   logic [5:0] clk_count = TIMEOUT_COUNT + 1;
 
-  logic tck;
-  logic trstn;
-  logic tdi;
-  logic tms;
+  logic tck = 1'bz;
+  logic trstn = 1'bz;
+  logic tdi = 1'bz;
+  logic tms = 1'bz;
 
 
 
